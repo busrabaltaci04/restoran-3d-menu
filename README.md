@@ -204,9 +204,9 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## İletişim
 
-- Proje Sahibi: [Adınız]
-- Email: [email@example.com]
-- Proje Linki: [https://github.com/username/restoranadmin]
+- Proje Sahibi: Büşra Baltacı
+- Email: busrabaltaci04@gmail.com
+- Proje Linki: https://github.com/busrabaltaci04/restoran-3d-menu
 
 ## Teşekkürler
 
