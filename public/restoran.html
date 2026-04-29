@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran Menü - AR Önizleme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/restoranStyless.css">
+    <!-- Three.js ve GLTFLoader -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <header>
+        <div class="restoran-bilgi">
+            <img id="restoran-logo" src="" alt="Restoran Logo" class="restoran-logo">
+            <div class="restoran-metin">
+                <h1 id="restoran-adi">Lezzet Durağı</h1>
+                <p id="restoran-aciklama">AR destekli dijital menü</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Kategori Navigasyonu -->
+    <nav class="kategori-nav" id="kategori-nav">
+        <!-- Kategoriler JavaScript ile eklenecek -->
+    </nav>
+
+    <main>
+        <div class="menu-container" id="menu-container">
+            <!-- Yemekler JavaScript ile eklenecek -->
+        </div>
+    </main>
+    <div class="ar-info">
+        <h3>AR Menü Deneyimi</h3>
+        <p>Ürünleri 3D olarak masanızda görüntülemek için "AR'da Görüntüle" butonuna tıklayın</p>
+        <p>WebXR destekli tarayıcı gereklidir (Chrome, Edge önerilir)</p>
+    </div>
+
+
+    <!-- AR Container (başlangıçta gizli) -->
+    <div id="ar-container" style="display: none;">
+        
+    </div>
+
+    
+    <!-- Durum bilgisi -->
+    <div id="status" class="status-message" style="display:none;"></div>
+
+    <!-- Ana JavaScript -->
+    <script src="/js/useRestoran.js"></script>
+</body>
+</html>
